@@ -1,7 +1,9 @@
+import Hero from "@/components/Hero";
+
 export default function Home() {
-  return (
-   <main>
-     <h1 className="text-5xl text-orange font-bold">Welcome to awwwards</h1>
-   </main>
-  );
+    return (
+        <main className="relative min-h-screen w-screen overflow-x-hidden">
+            <Hero/>
+        </main>
+    );
 }
