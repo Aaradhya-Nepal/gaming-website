@@ -39,31 +39,27 @@ const About = () => {
                     Welcome to Zentry
                 </h2>
 
-                <AnimatedTitle title="  Disc<b>o</b>ver the world&apos;s <br/> l<b>a</b>rgest shared adventure"
-                               containerClass="mt-5 !text-black text-center"/>
-                <div className="abour-subtext">
-                    <p>
-                        The Game of Games begins-your life, now an epic MMORPG
-                    </p>
-                    <p>
-                        Zentry unites every player from countless games and platforms
+                <AnimatedTitle
+                    title="Disc<b>o</b>ver the world's <br /> largest shared <b>a</b>dventure"
+                    containerClass="mt-5 !text-black text-center"
+                />
+                <div className="about-subtext">
+                    <p>The Game of Games begins—your life, now an epic MMORPG</p>
+                    <p className="text-gray-500">
+                        Zentry unites every player from countless games and platforms, both
+                        digital and physical, into a unified Play Economy
                     </p>
                 </div>
             </div>
             <div className="h-dvh w-screen" id="clip">
                 <div className="mask-clip-path about-image">
-                    <Image
-                        src="/img/about.webp"
+                    <img
+                        src="img/about.webp"
                         alt="Background"
                         className="absolute left-0 top-0 size-full object-cover"
-                        width={1920}
-                        height={1080}
-                        quality={100}
                     />
                 </div>
-
             </div>
-
         </div>
     )
 }
