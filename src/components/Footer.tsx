@@ -29,8 +29,8 @@ const links = [
 const Footer = () => {
     return (
         <footer className="w-screen bg-violet-300 py-4 text-black">
-            <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:felx-row">
-                <p className="text-center text-sm md:text-left">
+            <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
+                <p className="text-center text-sm md:text-left text-white">
                     &copy; 2024. All rights reserved.
                 </p>
 
@@ -42,7 +42,7 @@ const Footer = () => {
                         </Link>
                     ))}
                 </div>
-                <Link href="#privacy-policy" className="text-center text-sm hover:underline md:text-right">
+                <Link href="#privacy-policy" className="text-center text-sm hover:underline md:text-right text-white">
                     Privacy Policy
                 </Link>
             </div>
