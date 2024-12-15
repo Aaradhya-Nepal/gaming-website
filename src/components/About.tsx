@@ -9,7 +9,6 @@ import AnimatedTitle from "@/components/AnimatedTitle";
 
 gsap.registerPlugin(ScrollTrigger);
 
-
 const About = () => {
 
     useGSAP(() => {
@@ -26,7 +25,7 @@ const About = () => {
         clipAnimation.to(
             ".mask-clip-path", {
                 width: "100vw",
-                height: "100vw",
+                height: "100vh",
                 borderRadius: 0,
             }
         )
